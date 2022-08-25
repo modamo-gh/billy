@@ -1,4 +1,4 @@
-import Avatar from "./Avatar";
+import { Avatar } from "@mui/material";
 import Logo from "./Logo";
 
 const Navbar = () => {
