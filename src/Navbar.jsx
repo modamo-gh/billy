@@ -6,7 +6,7 @@ const Navbar = () => {
     return (
         <nav className="navbar">
             <Logo />
-            <Avatar sx={{width: 120, height: 120, margin: 1.2}}/>
+            <Avatar sx={{ width: 100, height: 100, margin: 1.2 }} />
         </nav>
     )
 }
