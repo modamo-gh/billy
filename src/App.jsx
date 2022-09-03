@@ -1,13 +1,14 @@
+import Footer from "./Footer";
 import Navbar from "./Navbar";
-import "./App.css";
+import styles from "./App.module.css";
 
 const App = () => {
   return (
-  <div className="app">
-    <Navbar />
-    {/* <LandingPageBlurp />
-    <Footer /> */}
-  </div>
+    <div className={styles.app}>
+      <Navbar />
+      {/* <LandingPageBlurp /> */}
+      <Footer />
+    </div>
   )
 }
 
